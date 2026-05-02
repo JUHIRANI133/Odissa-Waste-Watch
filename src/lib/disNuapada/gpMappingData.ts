@@ -1,0 +1,103 @@
+export interface GpMappingData {
+  id: number;
+  block: string;
+  gpName: string;
+  taggedUlb: string;
+  taggedMrf: string;
+}
+
+export const gpMappingData: GpMappingData[] = [
+  // Block Khariar - Khariar NAC (Routes 1 & 2)
+  { id: 1, block: 'Khariar', gpName: 'AREDA', taggedUlb: 'Khariar NAC', taggedMrf: 'KHARIAR MRF' },
+  { id: 2, block: 'Khariar', gpName: 'BADDOHEL', taggedUlb: 'Khariar NAC', taggedMrf: 'KHARIAR MRF' },
+  { id: 3, block: 'Khariar', gpName: 'BADI', taggedUlb: 'Khariar NAC', taggedMrf: 'KHARIAR MRF' },
+  { id: 4, block: 'Khariar', gpName: 'BARGAON', taggedUlb: 'Khariar NAC', taggedMrf: 'KHARIAR MRF' },
+  { id: 5, block: 'Khariar', gpName: 'BHOJPUR', taggedUlb: 'Khariar NAC', taggedMrf: 'KHARIAR MRF' },
+  { id: 6, block: 'Khariar', gpName: 'BHULIASIKUAN', taggedUlb: 'Khariar NAC', taggedMrf: 'KHARIAR MRF' },
+  { id: 7, block: 'Khariar', gpName: 'GARDAMUNDA', taggedUlb: 'Khariar NAC', taggedMrf: 'KHARIAR MRF' },
+  { id: 8, block: 'Khariar', gpName: 'CHANABEDA', taggedUlb: 'Khariar NAC', taggedMrf: 'KHARIAR MRF' },
+  { id: 9, block: 'Khariar', gpName: 'CHINDAGUDA', taggedUlb: 'Khariar NAC', taggedMrf: 'KHARIAR MRF' },
+  { id: 10, block: 'Khariar', gpName: 'KENDUPATI', taggedUlb: 'Khariar NAC', taggedMrf: 'KHARIAR MRF' },
+  { id: 11, block: 'Khariar', gpName: 'LANJI', taggedUlb: 'Khariar NAC', taggedMrf: 'KHARIAR MRF' },
+  { id: 12, block: 'Khariar', gpName: 'SANMAHESWAR', taggedUlb: 'Khariar NAC', taggedMrf: 'KHARIAR MRF' },
+  { id: 13, block: 'Khariar', gpName: 'TUKLA', taggedUlb: 'Khariar NAC', taggedMrf: 'KHARIAR MRF' },
+  { id: 14, block: 'Khariar', gpName: 'BIRIGHAT', taggedUlb: 'Khariar NAC', taggedMrf: 'KHARIAR MRF' },
+  { id: 15, block: 'Khariar', gpName: 'KHASBAHAL', taggedUlb: 'Khariar NAC', taggedMrf: 'KHARIAR MRF' },
+  { id: 16, block: 'Khariar', gpName: 'KHUDPEJ', taggedUlb: 'Khariar NAC', taggedMrf: 'KHARIAR MRF' },
+  { id: 17, block: 'Khariar', gpName: 'KIRIKITA', taggedUlb: 'Khariar NAC', taggedMrf: 'KHARIAR MRF' },
+  { id: 18, block: 'Khariar', gpName: 'DUAJHAR', taggedUlb: 'Khariar NAC', taggedMrf: 'KHARIAR MRF' },
+  { id: 19, block: 'Khariar', gpName: 'MANDOSIL', taggedUlb: 'Khariar NAC', taggedMrf: 'KHARIAR MRF' },
+  { id: 20, block: 'Khariar', gpName: 'NEHENA', taggedUlb: 'Khariar NAC', taggedMrf: 'KHARIAR MRF' },
+  { id: 21, block: 'Khariar', gpName: 'RANIMUNDA', taggedUlb: 'Khariar NAC', taggedMrf: 'KHARIAR MRF' },
+  { id: 22, block: 'Khariar', gpName: 'RISIGAON', taggedUlb: 'Khariar NAC', taggedMrf: 'KHARIAR MRF' },
+  { id: 23, block: 'Khariar', gpName: 'DOHELPADA', taggedUlb: 'Khariar NAC', taggedMrf: 'KHARIAR MRF' },
+  { id: 24, block: 'Khariar', gpName: 'SARDHAPUR', taggedUlb: 'Khariar NAC', taggedMrf: 'KHARIAR MRF' },
+  { id: 25, block: 'Khariar', gpName: 'SUNARI SIKUAN', taggedUlb: 'Khariar NAC', taggedMrf: 'KHARIAR MRF' },
+  { id: 26, block: 'Khariar', gpName: 'DABRI', taggedUlb: 'Khariar NAC', taggedMrf: 'KHARIAR MRF' },
+
+  // Block Sinapali - Khariar NAC (Routes 3, 4, 5)
+  { id: 27, block: 'Sinapali', gpName: 'BARGAON', taggedUlb: 'Khariar NAC', taggedMrf: 'KHARIAR MRF' },
+  { id: 28, block: 'Sinapali', gpName: 'BHARUAMUNDA', taggedUlb: 'Khariar NAC', taggedMrf: 'KHARIAR MRF' },
+  { id: 29, block: 'Sinapali', gpName: 'CHATIAGUDA', taggedUlb: 'Khariar NAC', taggedMrf: 'KHARIAR MRF' },
+  { id: 30, block: 'Sinapali', gpName: 'GANDABAHALI', taggedUlb: 'Khariar NAC', taggedMrf: 'KHARIAR MRF' },
+  { id: 31, block: 'Sinapali', gpName: 'HATIBANDHA', taggedUlb: 'Khariar NAC', taggedMrf: 'KHARIAR MRF' },
+  { id: 32, block: 'Sinapali', gpName: 'LITIGUDA', taggedUlb: 'Khariar NAC', taggedMrf: 'KHARIAR MRF' },
+  { id: 33, block: 'Sinapali', gpName: 'MAKHAPADAR', taggedUlb: 'Khariar NAC', taggedMrf: 'KHARIAR MRF' },
+  { id: 34, block: 'Sinapali', gpName: 'GODAL', taggedUlb: 'Khariar NAC', taggedMrf: 'KHARIAR MRF' },
+  { id: 35, block: 'Sinapali', gpName: 'SINAPALI', taggedUlb: 'Khariar NAC', taggedMrf: 'KHARIAR MRF' },
+  { id: 36, block: 'Sinapali', gpName: 'KUSUMJORE', taggedUlb: 'Khariar NAC', taggedMrf: 'KHARIAR MRF' },
+  { id: 37, block: 'Sinapali', gpName: 'JHARBANDH', taggedUlb: 'Khariar NAC', taggedMrf: 'KHARIAR MRF' },
+  { id: 38, block: 'Sinapali', gpName: 'KAINTPADAR', taggedUlb: 'Khariar NAC', taggedMrf: 'KHARIAR MRF' },
+  { id: 39, block: 'Sinapali', gpName: 'KARANBAHALI', taggedUlb: 'Khariar NAC', taggedMrf: 'KHARIAR MRF' },
+  { id: 40, block: 'Sinapali', gpName: 'KENDUMUNDA', taggedUlb: 'Khariar NAC', taggedMrf: 'KHARIAR MRF' },
+  { id: 41, block: 'Sinapali', gpName: 'KHAIRABHADI', taggedUlb: 'Khariar NAC', taggedMrf: 'KHARIAR MRF' },
+  { id: 42, block: 'Sinapali', gpName: 'KHARSEL', taggedUlb: 'Khariar NAC', taggedMrf: 'KHARIAR MRF' },
+  { id: 43, block: 'Sinapali', gpName: 'SINGJHAR', taggedUlb: 'Khariar NAC', taggedMrf: 'KHARIAR MRF' },
+  { id: 44, block: 'Sinapali', gpName: 'GHUCHAGUDA', taggedUlb: 'Khariar NAC', taggedMrf: 'KHARIAR MRF' },
+  { id: 45, block: 'Sinapali', gpName: 'GORLA', taggedUlb: 'Khariar NAC', taggedMrf: 'KHARIAR MRF' },
+  { id: 46, block: 'Sinapali', gpName: 'NANGALBOD', taggedUlb: 'Khariar NAC', taggedMrf: 'KHARIAR MRF' },
+  { id: 47, block: 'Sinapali', gpName: 'NILJEE', taggedUlb: 'Khariar NAC', taggedMrf: 'KHARIAR MRF' },
+  { id: 48, block: 'Sinapali', gpName: 'NUAMALPADA', taggedUlb: 'Khariar NAC', taggedMrf: 'KHARIAR MRF' },
+  { id: 49, block: 'Sinapali', gpName: 'NUAPADA_SIN', taggedUlb: 'Khariar NAC', taggedMrf: 'KHARIAR MRF' },
+  { id: 50, block: 'Sinapali', gpName: 'RANIMUNDA_SIN', taggedUlb: 'Khariar NAC', taggedMrf: 'KHARIAR MRF' },
+  { id: 51, block: 'Sinapali', gpName: 'GHANTIGUDA', taggedUlb: 'Khariar NAC', taggedMrf: 'KHARIAR MRF' },
+  { id: 52, block: 'Sinapali', gpName: 'GHATMAL', taggedUlb: 'Khariar NAC', taggedMrf: 'KHARIAR MRF' },
+  { id: 53, block: 'Sinapali', gpName: 'TIMANPUR', taggedUlb: 'Khariar NAC', taggedMrf: 'KHARIAR MRF' },
+
+  // Block Boden - Khariar NAC (Routes 6 & 7)
+  { id: 54, block: 'Boden', gpName: 'BABEBIR', taggedUlb: 'Khariar NAC', taggedMrf: 'KHARIAR MRF' },
+  { id: 55, block: 'Boden', gpName: 'DAMJHAR', taggedUlb: 'Khariar NAC', taggedMrf: 'KHARIAR MRF' },
+  { id: 56, block: 'Boden', gpName: 'FARSARA', taggedUlb: 'Khariar NAC', taggedMrf: 'KHARIAR MRF' },
+  { id: 57, block: 'Boden', gpName: 'PALSAPADA', taggedUlb: 'Khariar NAC', taggedMrf: 'KHARIAR MRF' },
+  { id: 58, block: 'Boden', gpName: 'LITISARGI', taggedUlb: 'Khariar NAC', taggedMrf: 'KHARIAR MRF' },
+  { id: 59, block: 'Boden', gpName: 'ROKAL', taggedUlb: 'Khariar NAC', taggedMrf: 'KHARIAR MRF' },
+  { id: 60, block: 'Boden', gpName: 'LARKA', taggedUlb: 'Khariar NAC', taggedMrf: 'KHARIAR MRF' },
+  { id: 61, block: 'Boden', gpName: 'KARANGAMAL', taggedUlb: 'Khariar NAC', taggedMrf: 'KHARIAR MRF' },
+  { id: 62, block: 'Boden', gpName: 'BODEN', taggedUlb: 'Khariar NAC', taggedMrf: 'KHARIAR MRF' },
+  { id: 63, block: 'Boden', gpName: 'BHAISADANI', taggedUlb: 'Khariar NAC', taggedMrf: 'KHARIAR MRF' },
+  { id: 64, block: 'Boden', gpName: 'KARLAKOT', taggedUlb: 'Khariar NAC', taggedMrf: 'KHARIAR MRF' },
+  { id: 65, block: 'Boden', gpName: 'SUNAPUR', taggedUlb: 'Khariar NAC', taggedMrf: 'KHARIAR MRF' },
+  { id: 66, block: 'Boden', gpName: 'KHAIRA', taggedUlb: 'Khariar NAC', taggedMrf: 'KHARIAR MRF' },
+  { id: 67, block: 'Boden', gpName: 'NAGAPADA', taggedUlb: 'Khariar NAC', taggedMrf: 'KHARIAR MRF' },
+  { id: 68, block: 'Boden', gpName: 'BOIRGAON', taggedUlb: 'Khariar NAC', taggedMrf: 'KHARIAR MRF' },
+
+  // Block Komna - Khariar NAC (Routes 8 & 9)
+  { id: 69, block: 'Komna', gpName: 'AGREN', taggedUlb: 'Khariar NAC', taggedMrf: 'KHARIAR MRF' },
+  { id: 70, block: 'Komna', gpName: 'KONABIRA', taggedUlb: 'Khariar NAC', taggedMrf: 'KHARIAR MRF' },
+  { id: 71, block: 'Komna', gpName: 'RAJNA', taggedUlb: 'Khariar NAC', taggedMrf: 'KHARIAR MRF' },
+  { id: 72, block: 'Komna', gpName: 'DHORLAMUNDA', taggedUlb: 'Khariar NAC', taggedMrf: 'KHARIAR MRF' },
+  { id: 73, block: 'Komna', gpName: 'PENDRAWAN', taggedUlb: 'Khariar NAC', taggedMrf: 'KHARIAR MRF' },
+  { id: 74, block: 'Komna', gpName: 'JHAGRAHI', taggedUlb: 'Khariar NAC', taggedMrf: 'KHARIAR MRF' },
+  { id: 75, block: 'Komna', gpName: 'DEODHARA', taggedUlb: 'Khariar NAC', taggedMrf: 'KHARIAR MRF' },
+  { id: 76, block: 'Komna', gpName: 'KOMNA', taggedUlb: 'Khariar NAC', taggedMrf: 'KHARIAR MRF' },
+  { id: 77, block: 'Komna', gpName: 'BUHIKOMNA', taggedUlb: 'Khariar NAC', taggedMrf: 'KHARIAR MRF' },
+  { id: 78, block: 'Komna', gpName: 'TIKRAPADA', taggedUlb: 'Khariar NAC', taggedMrf: 'KHARIAR MRF' },
+  { id: 79, block: 'Komna', gpName: 'POINR', taggedUlb: 'Khariar NAC', taggedMrf: 'KHARIAR MRF' },
+  { id: 80, block: 'Komna', gpName: 'SOSENG', taggedUlb: 'Khariar NAC', taggedMrf: 'KHARIAR MRF' },
+  { id: 81, block: 'Komna', gpName: 'SUNABEDA', taggedUlb: 'Khariar NAC', taggedMrf: 'KHARIAR MRF' },
+  { id: 82, block: 'Komna', gpName: 'MICHHAPALI', taggedUlb: 'Khariar NAC', taggedMrf: 'KHARIAR MRF' },
+
+  // Block Nuapada - Nuapada NAC
+  { id: 83, block: 'Nuapada', gpName: 'AMANARA', taggedUlb: 'NUAPADANAC', taggedMrf: 'NUAPADA MRF' },
+  { id: 84, block: 'Nuapada', gpName: 'KENDUBAHARA', taggedUlb: 'NUAPADANAC', taggedMrf: 'NUAPADA MRF' },
+];

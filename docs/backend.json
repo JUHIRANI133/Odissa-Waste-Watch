@@ -1,0 +1,48 @@
+
+{
+  "entities": {
+    "WasteDetail": {
+      "title": "WasteDetail",
+      "description": "Authoritative reconciliation record for a waste collection circuit.",
+      "type": "object",
+      "properties": {
+        "date": { "type": "string", "format": "date" },
+        "routeId": { "type": "string" },
+        "district": { "type": "string" },
+        "block": { "type": "string" },
+        "mrf": { "type": "string" },
+        "totalGpLoad": { "type": "number" },
+        "driverSubmitted": { "type": "number" },
+        "plastic": { "type": "number" },
+        "paper": { "type": "number" },
+        "metal": { "type": "number" },
+        "cloth": { "type": "number" },
+        "glass": { "type": "number" },
+        "sanitation": { "type": "number" },
+        "others": { "type": "number" },
+        "gpBreakdown": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "name": { "type": "string" },
+              "amount": { "type": "number" }
+            }
+          }
+        }
+      },
+      "required": ["date", "routeId", "district", "block", "mrf", "totalGpLoad", "driverSubmitted"]
+    }
+  },
+  "auth": {
+    "providers": [
+      "password"
+    ]
+  },
+  "firestore": {
+    "/wasteDetails/{detailId}": {
+      "schema": "#/backend/entities/WasteDetail",
+      "description": "Collection of verified waste reconciliation records."
+    }
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "placeholderImages": [
+    {
+      "id": "hero-bg",
+      "description": "A wide-angle shot of a pristine Odisha landscape with green fields and clear blue skies, subtly hinting at a clean environment.",
+      "imageUrl": "https://images.unsplash.com/photo-1747912048787-5c37688382e8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxjbGVhbiUyMGxhbmRzY2FwZXxlbnwwfHx8fDE3NjU4OTQzNjl8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "clean landscape"
+    },
+    {
+      "id": "segregation-illustration",
+      "description": "Clear depiction of waste segregation into designated bins for plastics, paper, and glass.",
+      "imageUrl": "https://images.unsplash.com/photo-1577010768912-19874598a38e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHx3YXN0ZSUyMHNlZ3JlZ2F0aW9ufGVufDB8fHx8MTc2NTg5NDM2OHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "waste segregation"
+    },
+    {
+      "id": "collection-vehicle-photo",
+      "description": "A modern, branded waste collection vehicle operating in a rural or semi-urban setting.",
+      "imageUrl": "https://images.unsplash.com/photo-1751110479182-557290b6300d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxjb2xsZWN0aW9uJTIwdmVoaWNsZXN8ZW58MHx8fHwxNzY1ODk0MzY4fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "collection vehicles"
+    },
+    {
+      "id": "transportation-photo",
+      "description": "A truck on a road connecting a village to a town, symbolizing the GP to ULB linkage.",
+      "imageUrl": "https://images.unsplash.com/photo-1700126830092-9e7c2fffee46?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxHUCUyMHRvJTIwVUxCJTIwdHJhbnNwb3J0YXRpb258ZW58MHx8fHwxNzY1ODk0MzY4fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "GP to ULB transportation"
+    },
+    {
+      "id": "mrf-photo",
+      "description": "An organized interior view of a Material Recovery Facility where waste is sorted.",
+      "imageUrl": "https://images.unsplash.com/photo-1604845681124-e83e70a54952?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxtYXRlcmlhbCUyMHJlY292ZXJ5JTIwZmFjaWxpdGllc3xlbnwwfHx8fDE3NjU4OTQzNjh8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "material recovery facilities"
+    }
+  ]
+}

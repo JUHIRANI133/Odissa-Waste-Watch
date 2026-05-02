@@ -1,0 +1,243 @@
+export interface GpMappingData {
+  id: number;
+  block: string;
+  gpName: string;
+  taggedUlb: string;
+  taggedMrf: string;
+}
+
+export const gpMappingData: GpMappingData[] = [
+  // Aska Block
+  { id: 1, block: 'Aska', gpName: 'Chadhiapalli', taggedUlb: 'Aska NAC', taggedMrf: 'Aska NAC MRF 1' },
+  { id: 2, block: 'Aska', gpName: 'Kalasandhapur', taggedUlb: 'Aska NAC', taggedMrf: 'Aska NAC MRF 1' },
+  { id: 3, block: 'Aska', gpName: 'Nalabanta', taggedUlb: 'Aska NAC', taggedMrf: 'Aska NAC MRF 1' },
+  { id: 4, block: 'Aska', gpName: 'Debabhumi', taggedUlb: 'Aska NAC', taggedMrf: 'Aska NAC MRF 1' },
+  { id: 5, block: 'Aska', gpName: 'Mangalpur', taggedUlb: 'Aska NAC', taggedMrf: 'Aska NAC MRF 1' },
+  { id: 6, block: 'Aska', gpName: 'Balichhai', taggedUlb: 'Aska NAC', taggedMrf: 'Aska NAC MRF 1' },
+  { id: 7, block: 'Aska', gpName: 'Haridapadar', taggedUlb: 'Aska NAC', taggedMrf: 'Aska NAC MRF 1' },
+  { id: 8, block: 'Aska', gpName: 'Jaypur', taggedUlb: 'Aska NAC', taggedMrf: 'Aska NAC MRF 1' },
+  { id: 9, block: 'Aska', gpName: 'Gangapur', taggedUlb: 'Aska NAC', taggedMrf: 'Aska NAC MRF 1' },
+  { id: 10, block: 'Aska', gpName: 'Khandadeuli', taggedUlb: 'Aska NAC', taggedMrf: 'Aska NAC MRF 1' },
+  { id: 11, block: 'Aska', gpName: 'Babanapur', taggedUlb: 'Aska NAC', taggedMrf: 'Aska NAC MRF 2' },
+  { id: 12, block: 'Aska', gpName: 'Bhetanai', taggedUlb: 'Aska NAC', taggedMrf: 'Aska NAC MRF 2' },
+  { id: 13, block: 'Aska', gpName: 'Badakholi', taggedUlb: 'Aska NAC', taggedMrf: 'Aska NAC MRF 2' },
+  { id: 14, block: 'Aska', gpName: 'Gahangu', taggedUlb: 'Aska NAC', taggedMrf: 'Aska NAC MRF 2' },
+  { id: 15, block: 'Aska', gpName: 'Balisira', taggedUlb: 'Aska NAC', taggedMrf: 'Aska NAC MRF 2' },
+  { id: 16, block: 'Aska', gpName: 'Gunthapada', taggedUlb: 'Aska NAC', taggedMrf: 'Aska NAC MRF 2' },
+  { id: 17, block: 'Aska', gpName: 'Benapata', taggedUlb: 'Aska NAC', taggedMrf: 'Aska NAC MRF 2' },
+  { id: 18, block: 'Aska', gpName: 'Bangarada', taggedUlb: 'Aska NAC', taggedMrf: 'Aska NAC MRF 2' },
+  { id: 19, block: 'Aska', gpName: 'Allipur', taggedUlb: 'Aska NAC', taggedMrf: 'Aska NAC MRF 2' },
+
+  // Belaguntha Block
+  { id: 20, block: 'Belaguntha', gpName: 'AMBAPUA', taggedUlb: 'Belaguntha NAC', taggedMrf: 'Belaguntha MRF' },
+  { id: 21, block: 'Belaguntha', gpName: 'BANKA', taggedUlb: 'Belaguntha NAC', taggedMrf: 'Belaguntha MRF' },
+  { id: 22, block: 'Belaguntha', gpName: 'BENIPALLI', taggedUlb: 'Belaguntha NAC', taggedMrf: 'Belaguntha MRF' },
+  { id: 23, block: 'Belaguntha', gpName: 'DHUMUCHAI', taggedUlb: 'Belaguntha NAC', taggedMrf: 'Belaguntha MRF' },
+  { id: 24, block: 'Belaguntha', gpName: 'G.NUAGAM', taggedUlb: 'Belaguntha NAC', taggedMrf: 'Belaguntha MRF' },
+  { id: 25, block: 'Belaguntha', gpName: 'MANGALPUR', taggedUlb: 'Belaguntha NAC', taggedMrf: 'Belaguntha MRF' },
+  { id: 26, block: 'Belaguntha', gpName: 'TANARADA', taggedUlb: 'Belaguntha NAC', taggedMrf: 'Belaguntha MRF' },
+  { id: 27, block: 'Belaguntha', gpName: 'UDHURA', taggedUlb: 'Belaguntha NAC', taggedMrf: 'Belaguntha MRF' },
+
+  // Bhanjanagar Block
+  { id: 28, block: 'Bhanjanagar', gpName: 'BADAKODANDA', taggedUlb: 'Bhanjanagar NAC', taggedMrf: 'Bhanjanagar MRF' },
+  { id: 29, block: 'Bhanjanagar', gpName: 'BARUDA', taggedUlb: 'Bhanjanagar NAC', taggedMrf: 'Bhanjanagar MRF' },
+  { id: 30, block: 'Bhanjanagar', gpName: 'BAUNSALUNDI', taggedUlb: 'Bhanjanagar NAC', taggedMrf: 'Bhanjanagar MRF' },
+  { id: 31, block: 'Bhanjanagar', gpName: 'DIHAPADHALA', taggedUlb: 'Bhanjanagar NAC', taggedMrf: 'Bhanjanagar MRF' },
+  { id: 32, block: 'Bhanjanagar', gpName: 'GOLAPADA', taggedUlb: 'Bhanjanagar NAC', taggedMrf: 'Bhanjanagar MRF' },
+  { id: 33, block: 'Bhanjanagar', gpName: 'JILLUNDI', taggedUlb: 'Bhanjanagar NAC', taggedMrf: 'Bhanjanagar MRF' },
+  { id: 34, block: 'Bhanjanagar', gpName: 'KULLADA', taggedUlb: 'Bhanjanagar NAC', taggedMrf: 'Bhanjanagar MRF' },
+  { id: 35, block: 'Bhanjanagar', gpName: 'LALSINGI', taggedUlb: 'Bhanjanagar NAC', taggedMrf: 'Bhanjanagar MRF' },
+  { id: 36, block: 'Bhanjanagar', gpName: 'MUDULIPALLI', taggedUlb: 'Bhanjanagar NAC', taggedMrf: 'Bhanjanagar MRF' },
+  { id: 37, block: 'Bhanjanagar', gpName: 'MUJAGADA', taggedUlb: 'Bhanjanagar NAC', taggedMrf: 'Bhanjanagar MRF' },
+  { id: 38, block: 'Bhanjanagar', gpName: 'SANAKODANDA', taggedUlb: 'Bhanjanagar NAC', taggedMrf: 'Bhanjanagar MRF' },
+
+  // Buguda Block
+  { id: 39, block: 'Buguda', gpName: 'ANTARAPADA', taggedUlb: 'Buguda NAC', taggedMrf: 'BugudaMRF' },
+  { id: 40, block: 'Buguda', gpName: 'B KARADABADI', taggedUlb: 'Buguda NAC', taggedMrf: 'BugudaMRF' },
+  { id: 41, block: 'Buguda', gpName: 'BHAMASIALI', taggedUlb: 'Buguda NAC', taggedMrf: 'BugudaMRF' },
+  { id: 42, block: 'Buguda', gpName: 'BIRANCHIPUR', taggedUlb: 'Buguda NAC', taggedMrf: 'BugudaMRF' },
+  { id: 43, block: 'Buguda', gpName: 'KHOLOKHALI', taggedUlb: 'Buguda NAC', taggedMrf: 'BugudaMRF' },
+  { id: 44, block: 'Buguda', gpName: 'GOLABANDHA', taggedUlb: 'Buguda NAC', taggedMrf: 'BugudaMRF' },
+  { id: 45, block: 'Buguda', gpName: 'GOLIA', taggedUlb: 'Buguda NAC', taggedMrf: 'BugudaMRF' },
+  { id: 46, block: 'Buguda', gpName: 'PANGIDI', taggedUlb: 'Buguda NAC', taggedMrf: 'BugudaMRF' },
+
+  // Chikiti Block
+  { id: 47, block: 'Chikiti', gpName: 'KALABADA', taggedUlb: 'Chikiti ULB', taggedMrf: 'Chikiti MRF' },
+  { id: 48, block: 'Chikiti', gpName: 'KOTLINGI', taggedUlb: 'Chikiti ULB', taggedMrf: 'Chikiti MRF' },
+  { id: 49, block: 'Chikiti', gpName: 'RAMACHANDRAPUR', taggedUlb: 'Chikiti ULB', taggedMrf: 'Chikiti MRF' },
+  { id: 50, block: 'Chikiti', gpName: 'K.NUAGA', taggedUlb: 'Chikiti ULB', taggedMrf: 'Chikiti MRF' },
+  { id: 51, block: 'Chikiti', gpName: 'PITATALI', taggedUlb: 'Chikiti ULB', taggedMrf: 'Chikiti MRF' },
+  { id: 52, block: 'Chikiti', gpName: 'GIRISOLA', taggedUlb: 'Chikiti ULB', taggedMrf: 'Chikiti MRF' },
+  { id: 53, block: 'Chikiti', gpName: 'LALAMENTA', taggedUlb: 'Chikiti ULB', taggedMrf: 'Chikiti MRF' },
+
+  // Digapahandi Block
+  { id: 54, block: 'Digapahandi', gpName: 'ANKRODA', taggedUlb: 'Digapahandi ULB', taggedMrf: 'Digapahandi MRF' },
+  { id: 55, block: 'Digapahandi', gpName: 'BADADUMULA', taggedUlb: 'Digapahandi ULB', taggedMrf: 'Digapahandi MRF' },
+  { id: 56, block: 'Digapahandi', gpName: 'BASUDEVPUR', taggedUlb: 'Digapahandi ULB', taggedMrf: 'Digapahandi MRF' },
+  { id: 57, block: 'Digapahandi', gpName: 'GOKARNAPUR', taggedUlb: 'Digapahandi ULB', taggedMrf: 'Digapahandi MRF' },
+  { id: 58, block: 'Digahapandi', gpName: 'KAITHADA', taggedUlb: 'Digapahandi ULB', taggedMrf: 'Digapahandi MRF' },
+  { id: 59, block: 'Digapahandi', gpName: 'KUSAPADA', taggedUlb: 'Digapahandi ULB', taggedMrf: 'Digapahandi MRF' },
+  { id: 60, block: 'Digapahandi', gpName: 'PADMANAVPUR', taggedUlb: 'Digapahandi ULB', taggedMrf: 'Digapahandi MRF' },
+
+  // Hinjilicut Block
+  { id: 61, block: 'Hinjilicut', gpName: 'CHANDALI', taggedUlb: 'Hinjilicut Municipality', taggedMrf: 'Hinjilicut MRF-1' },
+  { id: 62, block: 'Hinjilicut', gpName: 'KANCHURA', taggedUlb: 'Hinjilicut Municipality', taggedMrf: 'Hinjilicut MRF-1' },
+  { id: 63, block: 'Hinjilicut', gpName: 'KHARIDA', taggedUlb: 'Hinjilicut Municipality', taggedMrf: 'Hinjilicut MRF-1' },
+  { id: 64, block: 'Hinjilicut', gpName: 'MAKARJHOLA', taggedUlb: 'Hinjilicut Municipality', taggedMrf: 'Hinjilicut MRF-1' },
+  { id: 65, block: 'Hinjilicut', gpName: 'NANDIKA', taggedUlb: 'Hinjilicut Municipality', taggedMrf: 'Hinjilicut MRF-1' },
+  { id: 66, block: 'Hinjilicut', gpName: 'POCHILIMA', taggedUlb: 'Hinjilicut Municipality', taggedMrf: 'Hinjilicut MRF-1' },
+  { id: 67, block: 'Hinjilicut', gpName: 'RALABA', taggedUlb: 'Hinjilicut Municipality', taggedMrf: 'Hinjilicut MRF-1' },
+  { id: 68, block: 'Hinjilicut', gpName: 'SARU', taggedUlb: 'Hinjilicut Municipality', taggedMrf: 'Hinjilicut MRF-1' },
+  { id: 69, block: 'Hinjilicut', gpName: 'SIKIRI', taggedUlb: 'Hinjilicut Municipality', taggedMrf: 'Hinjilicut MRF-1' },
+  { id: 70, block: 'Hinjilicut', gpName: 'SYASAN AMBAGAM', taggedUlb: 'Hinjilicut Municipality', taggedMrf: 'Hinjilicut MRF-1' },
+  { id: 71, block: 'Hinjilicut', gpName: 'BURUPADA', taggedUlb: 'Hinjilicut Municipality', taggedMrf: 'Hinjilicut MRF-2' },
+  { id: 72, block: 'Hinjilicut', gpName: 'DARUBHADRA', taggedUlb: 'Hinjilicut Municipality', taggedMrf: 'Hinjilicut MRF-2' },
+  { id: 73, block: 'Hinjilicut', gpName: 'DAYAPALLI', taggedUlb: 'Hinjilicut Municipality', taggedMrf: 'Hinjilicut MRF-2' },
+  { id: 74, block: 'Hinjilicut', gpName: 'DHOBADI', taggedUlb: 'Hinjilicut Municipality', taggedMrf: 'Hinjilicut MRF-2' },
+  { id: 75, block: 'Hinjilicut', gpName: 'DURBANDHA', taggedUlb: 'Hinjilicut Municipality', taggedMrf: 'Hinjilicut MRF-2' },
+  { id: 76, block: 'Hinjilicut', gpName: 'GANDOLA', taggedUlb: 'Hinjilicut Municipality', taggedMrf: 'Hinjilicut MRF-2' },
+  { id: 77, block: 'Hinjilicut', gpName: 'PATTIAPADAR', taggedUlb: 'Hinjilicut Municipality', taggedMrf: 'Hinjilicut MRF-2' },
+
+  // Khallikote Block
+  { id: 78, block: 'Khallikote', gpName: 'B.N.PALLLI', taggedUlb: 'Khallikote ULB', taggedMrf: 'Khallikote MRF' },
+  { id: 79, block: 'Khallikote', gpName: 'BIKRAMPUR', taggedUlb: 'Khallikote ULB', taggedMrf: 'Khallikote MRF' },
+  { id: 80, block: 'Khallikote', gpName: 'CHIKILI', taggedUlb: 'Khallikote ULB', taggedMrf: 'Khallikote MRF' },
+  { id: 81, block: 'Khallikote', gpName: 'DIMIRIA', taggedUlb: 'Khallikote ULB', taggedMrf: 'Khallikote MRF' },
+  { id: 82, block: 'Khallikote', gpName: 'KANCHANA', taggedUlb: 'Khallikote ULB', taggedMrf: 'Khallikote MRF' },
+  { id: 83, block: 'Khallikote', gpName: 'KESHPUR', taggedUlb: 'Khallikote ULB', taggedMrf: 'Khallikote MRF' },
+  { id: 84, block: 'Khallikote', gpName: 'MATHURA', taggedUlb: 'Khallikote ULB', taggedMrf: 'Khallikote MRF' },
+  { id: 85, block: 'Khallikote', gpName: 'S.K.S.PUR', taggedUlb: 'Khallikote ULB', taggedMrf: 'Khallikote MRF' },
+  { id: 86, block: 'Khallikote', gpName: 'TULASIPUR', taggedUlb: 'Khallikote ULB', taggedMrf: 'Khallikote MRF' },
+
+  // Polosara Block
+  { id: 87, block: 'Polosara', gpName: 'BANTHA PALLI', taggedUlb: 'Polosara NAC', taggedMrf: 'Polosara MRF' },
+  { id: 88, block: 'Polosara', gpName: 'BARTINI', taggedUlb: 'Polosara NAC', taggedMrf: 'Polosara MRF' },
+  { id: 89, block: 'Polosara', gpName: 'BELLAGAM', taggedUlb: 'Polosara NAC', taggedMrf: 'Polosara MRF' },
+  { id: 90, block: 'Polosara', gpName: 'BOUDHAISUNU', taggedUlb: 'Polosara NAC', taggedMrf: 'Polosara MRF' },
+  { id: 91, block: 'Polosara', gpName: 'J DENGAPADRA', taggedUlb: 'Polosara NAC', taggedMrf: 'Polosara MRF' },
+  { id: 92, block: 'Polosara', gpName: 'JAKARA', taggedUlb: 'Polosara NAC', taggedMrf: 'Polosara MRF' },
+  { id: 93, block: 'Polosara', gpName: 'KAHANDURU', taggedUlb: 'Polosara NAC', taggedMrf: 'Polosara MRF' },
+  { id: 94, block: 'Polosara', gpName: 'KALAMABA', taggedUlb: 'Polosara NAC', taggedMrf: 'Polosara MRF' },
+  { id: 95, block: 'Polosara', gpName: 'MATHURA', taggedUlb: 'Polosara NAC', taggedMrf: 'Polosara MRF' },
+
+  // Sanakhemundi Block
+  { id: 96, block: 'Sanakhemundi', gpName: 'AMBAGAM', taggedUlb: 'Digapahandi ULB', taggedMrf: 'Digapahandi MRF' },
+  { id: 97, block: 'Sanakhemundi', gpName: 'CHUDANGAPUR', taggedUlb: 'Digapahandi ULB', taggedMrf: 'Digapahandi MRF' },
+  { id: 98, block: 'Sanakhemundi', gpName: 'MAULABHANJA', taggedUlb: 'Digapahandi ULB', taggedMrf: 'Digapahandi MRF' },
+  { id: 99, block: 'Sanakhemundi', gpName: 'PATAPUR', taggedUlb: 'Digapahandi ULB', taggedMrf: 'Digapahandi MRF' },
+  { id: 100, block: 'Sanakhemundi', gpName: 'DAYANIDHIPUR', taggedUlb: 'Digapahandi ULB', taggedMrf: 'Digapahandi MRF' },
+  { id: 101, block: 'Sanakhemundi', gpName: 'KAUDIA', taggedUlb: 'Digapahandi ULB', taggedMrf: 'Digapahandi MRF' },
+  { id: 102, block: 'Sanakhemundi', gpName: 'KALARAPADARA', taggedUlb: 'Digapahandi ULB', taggedMrf: 'Digapahandi MRF' },
+
+  // Sheragada Block
+  { id: 103, block: 'Sheragada', gpName: 'TAHARA', taggedUlb: 'Hinjilicut Municipality', taggedMrf: 'Hinjilicut MRF' },
+  { id: 104, block: 'Sheragada', gpName: 'NARENDRAPUR', taggedUlb: 'Hinjilicut Municipality', taggedMrf: 'Hinjilicut MRF' },
+  { id: 105, block: 'Sheragada', gpName: 'PITALA', taggedUlb: 'Hinjilicut Municipality', taggedMrf: 'Hinjilicut MRF' },
+  { id: 106, block: 'Sheragada', gpName: 'GOBINDAPUR', taggedUlb: 'Hinjilicut Municipality', taggedMrf: 'Hinjilicut MRF' },
+  { id: 107, block: 'Sheragada', gpName: 'BRAHMANACHAI', taggedUlb: 'Hinjilicut Municipality', taggedMrf: 'Hinjilicut MRF' },
+  { id: 108, block: 'Sheragada', gpName: 'GOTHAGAM', taggedUlb: 'Hinjilicut Municipality', taggedMrf: 'Hinjilicut MRF' },
+  { id: 109, block: 'Sheragada', gpName: 'MAHUPADAR', taggedUlb: 'Aska NAC', taggedMrf: 'Aska MRF' },
+  { id: 110, block: 'Sheragada', gpName: 'KHIRIDA', taggedUlb: 'Aska NAC', taggedMrf: 'Aska MRF' },
+  { id: 111, block: 'Sheragada', gpName: 'KULAGADA', taggedUlb: 'Aska NAC', taggedMrf: 'Aska MRF' },
+
+  // Surada Block
+  { id: 112, block: 'Surada', gpName: 'Amrutulu', taggedUlb: 'Surada NAC', taggedMrf: 'Surada MRF' },
+  { id: 113, block: 'Surada', gpName: 'Asurabandha', taggedUlb: 'Surada NAC', taggedMrf: 'Surada MRF' },
+  { id: 114, block: 'Surada', gpName: 'Badagada', taggedUlb: 'Surada NAC', taggedMrf: 'Surada MRF' },
+  { id: 115, block: 'Surada', gpName: 'Bhagabanpur', taggedUlb: 'Surada NAC', taggedMrf: 'Surada MRF' },
+  { id: 116, block: 'Surada', gpName: 'Borasingi', taggedUlb: 'Surada NAC', taggedMrf: 'Surada MRF' },
+  { id: 117, block: 'Surada', gpName: 'Genja', taggedUlb: 'Surada NAC', taggedMrf: 'Surada MRF' },
+  { id: 118, block: 'Surada', gpName: 'Gopalpur Sasan', taggedUlb: 'Surada NAC', taggedMrf: 'Surada MRF' },
+  { id: 119, block: 'Surada', gpName: 'Hukuma', taggedUlb: 'Surada NAC', taggedMrf: 'Surada MRF' },
+  { id: 120, block: 'Surada', gpName: 'Kulangi', taggedUlb: 'Surada NAC', taggedMrf: 'Surada MRF' },
+  { id: 121, block: 'Surada', gpName: 'Lathipada', taggedUlb: 'Surada NAC', taggedMrf: 'Surada MRF' },
+  { id: 122, block: 'Surada', gpName: 'Nuagada', taggedUlb: 'Surada NAC', taggedMrf: 'Surada MRF' },
+  { id: 123, block: 'Surada', gpName: 'Palakatu', taggedUlb: 'Surada NAC', taggedMrf: 'Surada MRF' },
+  { id: 124, block: 'Surada', gpName: 'Sarabadi', taggedUlb: 'Surada NAC', taggedMrf: 'Surada MRF' },
+  { id: 125, block: 'Surada', gpName: 'Suramani', taggedUlb: 'Surada NAC', taggedMrf: 'Surada MRF' },
+
+  // Kukudakhandi Block
+  { id: 126, block: 'Kukudakhandi', gpName: 'Mohuda', taggedUlb: 'Berhampur-1 Municipal Corporation', taggedMrf: 'Mohuda SWM Plant' },
+  { id: 127, block: 'Kukudakhandi', gpName: 'Sihala', taggedUlb: 'Berhampur-1 Municipal Corporation', taggedMrf: 'Mohuda SWM Plant' },
+  { id: 128, block: 'Kukudakhandi', gpName: 'Banthapalli', taggedUlb: 'Berhampur-1 Municipal Corporation', taggedMrf: 'Mohuda SWM Plant' },
+  { id: 129, block: 'Kukudakhandi', gpName: 'Anantei', taggedUlb: 'Berhampur-1 Municipal Corporation', taggedMrf: 'Mohuda SWM Plant' },
+  { id: 130, block: 'Kukudakhandi', gpName: 'Dakhinapur', taggedUlb: 'Berhampur-1 Municipal Corporation', taggedMrf: 'Mohuda SWM Plant' },
+  { id: 131, block: 'Kukudakhandi', gpName: 'Lanjia', taggedUlb: 'Berhampur-1 Municipal Corporation', taggedMrf: 'Mohuda SWM Plant' },
+  { id: 132, block: 'Kukudakhandi', gpName: 'Balipada', taggedUlb: 'Berhampur-1 Municipal Corporation', taggedMrf: 'Mohuda SWM Plant' },
+  { id: 133, block: 'Kukudakhandi', gpName: 'Dengapadar', taggedUlb: 'Berhampur-1 Municipal Corporation', taggedMrf: 'Mohuda SWM Plant' },
+  { id: 134, block: 'Kukudakhandi', gpName: 'Baghalati', taggedUlb: 'Berhampur-1 Municipal Corporation', taggedMrf: 'Mohuda SWM Plant' },
+
+  // Chatrapur Block
+  { id: 135, block: 'Chatrapur', gpName: 'Chikalakhandi', taggedUlb: 'Chatrapur NAC', taggedMrf: 'Mahaveer Nagar Wealth Centre' },
+  { id: 136, block: 'Chatrapur', gpName: 'Bipilingi', taggedUlb: 'Chatrapur NAC', taggedMrf: 'Mahaveer Nagar Wealth Centre' },
+  { id: 137, block: 'Chatrapur', gpName: 'Bhikaripalli', taggedUlb: 'Chatrapur NAC', taggedMrf: 'Mahaveer Nagar Wealth Centre' },
+  { id: 138, block: 'Chatrapur', gpName: 'Podapadar', taggedUlb: 'Chatrapur NAC', taggedMrf: 'Binod Bihari Wealth Centre (Rikapalli)' },
+  { id: 139, block: 'Chatrapur', gpName: 'Agastinuagam', taggedUlb: 'Chatrapur NAC', taggedMrf: 'Binod Bihari Wealth Centre (Rikapalli)' },
+  { id: 140, block: 'Chatrapur', gpName: 'Potlampur', taggedUlb: 'Chatrapur NAC', taggedMrf: 'Binod Bihari Wealth Centre (Rikapalli)' },
+  { id: 141, block: 'Chatrapur', gpName: 'Sree Ramchandrapur', taggedUlb: 'Chatrapur NAC', taggedMrf: 'OPTCL Wealth Centre (Near overbrige)' },
+  { id: 142, block: 'Chatrapur', gpName: 'Kanamana', taggedUlb: 'Chatrapur NAC', taggedMrf: 'OPTCL Wealth Centre (Near overbrige)' },
+
+  // Rangeilunda Block
+  { id: 143, block: 'Rangeilunda', gpName: 'Narayanapur', taggedUlb: 'Gopalpur NAC', taggedMrf: 'Gopalpur NAC MRF' },
+  { id: 144, block: 'Rangeilunda', gpName: 'Boxipalli', taggedUlb: 'Gopalpur NAC', taggedMrf: 'Gopalpur NAC MRF' },
+  { id: 145, block: 'Rangeilunda', gpName: 'Karapalli', taggedUlb: 'Gopalpur NAC', taggedMrf: 'Gopalpur NAC MRF' },
+  { id: 146, block: 'Rangeilunda', gpName: 'Rangeilunda', taggedUlb: 'Gopalpur NAC', taggedMrf: 'Gopalpur NAC MRF' },
+  { id: 147, block: 'Rangeilunda', gpName: 'Golabandha', taggedUlb: 'Gopalpur NAC', taggedMrf: 'Gopalpur NAC MRF' },
+  { id: 148, block: 'Rangeilunda', gpName: 'Kamalapur', taggedUlb: 'Gopalpur NAC', taggedMrf: 'Gopalpur NAC MRF' },
+
+  // Purushottampur Block
+  { id: 149, block: 'Purushottampur', gpName: 'Bhutasarasingh', taggedUlb: 'Purushottampur NAC', taggedMrf: 'Madhusudan Nagar MRF' },
+  { id: 150, block: 'Purushottampur', gpName: 'Badakharida', taggedUlb: 'Purushottampur NAC', taggedMrf: 'Madhusudan Nagar MRF' },
+  { id: 151, block: 'Purushottampur', gpName: 'Achuli', taggedUlb: 'Purushottampur NAC', taggedMrf: 'Madhusudan Nagar MRF' },
+  { id: 152, block: 'Purushottampur', gpName: 'Handighara', taggedUlb: 'Purushottampur NAC', taggedMrf: 'Madhusudan Nagar MRF' },
+  { id: 153, block: 'Purushottampur', gpName: 'Pratapur', taggedUlb: 'Purushottampur NAC', taggedMrf: 'Madhusudan Nagar MRF' },
+  { id: 154, block: 'Purushottampur', gpName: 'Kama Nalinakhyapur', taggedUlb: 'Purushottampur NAC', taggedMrf: 'Madhusudan Nagar MRF' },
+  { id: 155, block: 'Purushottampur', gpName: 'Arakhapur', taggedUlb: 'Purushottampur NAC', taggedMrf: 'Madhusudan Nagar MRF' },
+  { id: 156, block: 'Purushottampur', gpName: 'Sikula', taggedUlb: 'Purushottampur NAC', taggedMrf: 'Madhusudan Nagar MRF' },
+  { id: 157, block: 'Purushottampur', gpName: 'Bada Baragaon', taggedUlb: 'Purushottampur NAC', taggedMrf: 'Madhusudan Nagar MRF' },
+  { id: 158, block: 'Purushottampur', gpName: 'Bhimpur', taggedUlb: 'Purushottampur NAC', taggedMrf: 'Madhusudan Nagar MRF' },
+  { id: 159, block: 'Purushottampur', gpName: 'Ranjhalli', taggedUlb: 'Purushottampur NAC', taggedMrf: 'Madhusudan Nagar MRF' },
+  { id: 160, block: 'Purushottampur', gpName: 'Raipur', taggedUlb: 'Purushottampur NAC', taggedMrf: 'Madhusudan Nagar MRF' },
+
+  // Ganjam Block (NAC + Rambha)
+  { id: 161, block: 'Ganjam', gpName: 'Palibandha', taggedUlb: 'Ganjam NAC', taggedMrf: 'Ganjam NAC MRF' },
+  { id: 162, block: 'Ganjam', gpName: 'Kainchapur', taggedUlb: 'Ganjam NAC', taggedMrf: 'Ganjam NAC MRF' },
+  { id: 163, block: 'Ganjam', gpName: 'Humma', taggedUlb: 'Ganjam NAC', taggedMrf: 'Ganjam NAC MRF' },
+  { id: 164, block: 'Ganjam', gpName: 'Subalaya', taggedUlb: 'Ganjam NAC', taggedMrf: 'Ganjam NAC MRF' },
+  { id: 165, block: 'Ganjam', gpName: 'Rajapur', taggedUlb: 'Ganjam NAC', taggedMrf: 'Ganjam NAC MRF' },
+  { id: 166, block: 'Ganjam', gpName: 'Karapada', taggedUlb: 'Ganjam NAC', taggedMrf: 'Ganjam NAC MRF' },
+  { id: 167, block: 'Ganjam', gpName: 'Santoshpur', taggedUlb: 'Ganjam NAC', taggedMrf: 'Ganjam NAC MRF' },
+  { id: 168, block: 'Ganjam', gpName: 'Umuri Dhara Saranapur', taggedUlb: 'Ganjam NAC', taggedMrf: 'Ganjam NAC MRF' },
+  { id: 169, block: 'Ganjam', gpName: 'Jharedi RadhaGobindapur', taggedUlb: 'Ganjam NAC', taggedMrf: 'Ganjam NAC MRF' },
+  { id: 170, block: 'Ganjam', gpName: 'Palanga', taggedUlb: 'Rambha NAC', taggedMrf: 'MRF Koli Rambha' },
+  { id: 171, block: 'Ganjam', gpName: 'Poirasi', taggedUlb: 'Rambha NAC', taggedMrf: 'MRF Koli Rambha' },
+  { id: 172, block: 'Ganjam', gpName: 'SanaRamachandrapur', taggedUlb: 'Rambha NAC', taggedMrf: 'MRF Koli Rambha' },
+
+  // Kabisuryanagar Block
+  { id: 173, block: 'Kabisuryanagar', gpName: 'Sialia', taggedUlb: 'Kabisuryanagar NAC', taggedMrf: 'Kabisuryanagar NAC MRF' },
+  { id: 174, block: 'Kabisuryanagar', gpName: 'Paikajamuna', taggedUlb: 'Kabisuryanagar NAC', taggedMrf: 'Kabisuryanagar NAC MRF' },
+  { id: 175, block: 'Kabisuryanagar', gpName: 'Sunapalli', taggedUlb: 'Kabisuryanagar NAC', taggedMrf: 'Kabisuryanagar NAC MRF' },
+  { id: 176, block: 'Kabisuryanagar', gpName: 'Baliasara', taggedUlb: 'Kabisuryanagar NAC', taggedMrf: 'Kabisuryanagar NAC MRF' },
+  { id: 177, block: 'Kabisuryanagar', gpName: 'Gangapur', taggedUlb: 'Kabisuryanagar NAC', taggedMrf: 'Kabisuryanagar NAC MRF' },
+  { id: 178, block: 'Kabisuryanagar', gpName: 'Gudiali', taggedUlb: 'Kabisuryanagar NAC', taggedMrf: 'Kabisuryanagar NAC MRF' },
+  { id: 179, block: 'Kabisuryanagar', gpName: 'Nandiagada', taggedUlb: 'Kabisuryanagar NAC', taggedMrf: 'Kabisuryanagar NAC MRF' },
+  { id: 180, block: 'Kabisuryanagar', gpName: 'Sunarijhola', taggedUlb: 'Kabisuryanagar NAC', taggedMrf: 'Kabisuryanagar NAC MRF' },
+  { id: 181, block: 'Kabisuryanagar', gpName: 'Bolosara', taggedUlb: 'Kabisuryanagar NAC', taggedMrf: 'Kabisuryanagar NAC MRF' },
+  { id: 182, block: 'Kabisuryanagar', gpName: 'Baunsia', taggedUlb: 'Kabisuryanagar NAC', taggedMrf: 'Kabisuryanagar NAC MRF' },
+  { id: 183, block: 'Kabisuryanagar', gpName: 'Jarada', taggedUlb: 'Kabisuryanagar NAC', taggedMrf: 'Kabisuryanagar NAC MRF' },
+  { id: 184, block: 'Kabisuryanagar', gpName: 'Ambapua', taggedUlb: 'Kabisuryanagar NAC', taggedMrf: 'Kabisuryanagar NAC MRF' },
+
+  // Beguniapada Block
+  { id: 185, block: 'Beguniapada', gpName: 'Digapada', taggedUlb: 'Kodala NAC', taggedMrf: 'Kodala NAC MRF' },
+  { id: 186, block: 'Beguniapada', gpName: 'Phasi', taggedUlb: 'Kodala NAC', taggedMrf: 'Kodala NAC MRF' },
+  { id: 187, block: 'Beguniapada', gpName: 'Mathasarasingh', taggedUlb: 'Kodala NAC', taggedMrf: 'Kodala NAC MRF' },
+  { id: 188, block: 'Beguniapada', gpName: 'Sana-Ustrapada', taggedUlb: 'Kodala NAC', taggedMrf: 'Kodala NAC MRF' },
+  { id: 189, block: 'Beguniapada', gpName: 'Beguniapada', taggedUlb: 'Kodala NAC', taggedMrf: 'Kodala NAC MRF' },
+  { id: 190, block: 'Beguniapada', gpName: 'K.Barida', taggedUlb: 'Kodala NAC', taggedMrf: 'Kodala NAC MRF' },
+  { id: 191, block: 'Beguniapada', gpName: 'Chingudikhola', taggedUlb: 'Kodala NAC', taggedMrf: 'Kodala NAC MRF' },
+  { id: 192, block: 'Beguniapada', gpName: 'Saurachachina', taggedUlb: 'Kodala NAC', taggedMrf: 'Kodala NAC MRF' },
+  { id: 193, block: 'Beguniapada', gpName: 'Badakhairakhamma', taggedUlb: 'Kodala NAC', taggedMrf: 'Kodala NAC MRF' },
+  { id: 194, block: 'Beguniapada', gpName: 'Chandanapur', taggedUlb: 'Kodala NAC', taggedMrf: 'Kodala NAC MRF' },
+  { id: 195, block: 'Beguniapada', gpName: 'Burujhari', taggedUlb: 'Kodala NAC', taggedMrf: 'Kodala NAC MRF' },
+  { id: 196, block: 'Beguniapada', gpName: 'Beruhanabadi', taggedUlb: 'Kodala NAC', taggedMrf: 'Kodala NAC MRF' },
+];
