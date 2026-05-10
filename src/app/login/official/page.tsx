@@ -15,10 +15,10 @@ import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@
 import { mrfData } from '@/lib/mrf-data';
 import { useMemo } from 'react';
 import { ScrollArea } from '@/components/ui/scroll-area';
-import { useToast } from '@/hooks/use-toast';
+import { useToast } from '@/hooks/use-toast'; 
 
-/* ADDED */
-import { isAllowedEmail, canAccessDistrict } from '@/lib/auth/auth';
+/* ADDED - Import all required auth functions */
+import { isAllowedEmail, canAccessDistrict, normalizeEmail, districtRestrictedUsers } from '@/lib/auth/auth';
 
 const formSchema = z.object({
 name: z.string().min(2,{message:'Name must be at least 2 characters.'}),
@@ -153,24 +153,18 @@ variant:'destructive'
 return;
 }
 
-// Check district restriction for specific email
-if (values.role === 'district' && values.district) {
-  if (!canAccessDistrict(values.email, values.district)) {
-    toast({
-      title: 'Access Restricted',
-      description: `This email can only access Boudh district.`,
-      variant: 'destructive'
-    });
-    return;
-  }
-}
+// Get the restricted district for this email (if any)
+const normalizedEmail = normalizeEmail(values.email);
+const restrictedDistrict = districtRestrictedUsers[normalizedEmail as keyof typeof districtRestrictedUsers];
 
-// For block and ULB roles, check if the selected district is allowed for this email
-if ((values.role === 'block' || values.role === 'ulb') && values.district) {
+// Check district restriction for all roles that require a district
+if (values.district) {
   if (!canAccessDistrict(values.email, values.district)) {
     toast({
       title: 'Access Restricted',
-      description: `This email can only access data for Boudh district.`,
+      description: restrictedDistrict 
+        ? `This email can only access ${restrictedDistrict} district.` 
+        : `You are not authorized to access this district.`,
       variant: 'destructive'
     });
     return;
